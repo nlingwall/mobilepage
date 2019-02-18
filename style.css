@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+
+}
+
+p{
+    margin: 0;
+}
+
+.header{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: tomato;
+    justify-content: center;
+    width: 100%;
+
+}
+.virus{
+    height:350px;
+    width:350px;
+}
+
+
+.header > .hn{
+    font-size: 4em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.header > .hbody{
+    font-size: 1em;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+}
+/* Stats Section*/
+.stats{
+    display:flex;
+    background-color:ghostwhite;
+    width:100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+ 
+}
+
+.graph{
+    height: 130px;
+    width: 250px;
+}
+
+
+.stats > .hs{
+    font-size: 4em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    order:0;
+    width:100%;
+    text-align: center;
+}
+
+.stats > .sbody{
+    font-size: 1em;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    
+}
+/*Test*/
+.testimonial{ 
+    display:flex;
+    flex-wrap: wrap;   
+    background-color:mediumseagreen;
+    width:100%;
+  
+}
+
+.testimonial > .ts{
+    font-size: 4em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    order:0;
+    width:100%;
+    text-align: center;
+}
+
+.testimonial > .tbody{
+    font-size: 1em;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    margin:3px;
+}
+
+.testimonial > .tsig{
+    font-size: 1.25em;
+    font-family:cursive;
+    width:100%;
+    margin: 0 0 20px 10px;
+}
+
+/*Action*/
+.action{
+    display:flex;
+    flex-wrap: wrap;   
+    background-color:dodgerblue;
+    width:100%;
+    justify-content: center;
+
+}
+
+
+.action > .as{
+    font-size: 4em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    order:0;
+    width:100%;
+    text-align: center;
+}
+
+.donate {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:20px;
+  }
+  .donate:hover {
+    background-color: red; /* Green */
+    color: white;
+  }
+  
+  .dvirus {
+    background-color: red; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:20px;
+  } 
+  .dvirus:hover {
+    background-color: green; /* Green */
+    color: white;
+  }
+
+  .disclosure{
+      font-size: 7px;
+      color:black;
+      width: 100%;
+      text-align: center;
+  }
+/*media queries*/
+
+@media screen and (min-width: 650px){
+    .virus{
+        height:auto;
+        width:auto;
+    }
+    .graph{
+        height: auto;
+        width: auto;
+    }
+
+
+}
